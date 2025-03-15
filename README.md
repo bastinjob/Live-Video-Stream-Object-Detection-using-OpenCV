@@ -65,13 +65,13 @@ To set up and run this project, follow these steps:
 
 2. Create a virtual environment (optional but recommended):
     
-    '''
+    ```
     python3 -m venv venv
     source venv/bin/activate   # On Windows, use venv\Scripts\activate
 
 3. Install the required dependencies:
 
-    '''
+    ```
     pip install -r requirements.txt
 
     torch and torchvision: Required for running the Faster R-CNN model.
@@ -82,7 +82,7 @@ To set up and run this project, follow these steps:
 
     Ensure that PyTorch and OpenCV are installed correctly by running the following commands in Python:
 
-    '''
+    ```
     import torch
     import cv2
     print(torch.__version__)
@@ -94,6 +94,7 @@ To set up and run this project, follow these steps:
 
     To start the real-time face detection, run the following command in the terminal:
 
+    ```
     python face_detection.py
 
 2. Operation:
@@ -107,6 +108,7 @@ To set up and run this project, follow these steps:
 
     You can adjust the confidence threshold in the code to control which detections are shown. The default threshold is set to 50%, but you can modify it in the script:
 
+    ```
     if score > 0.5:  # Modify this value to adjust the threshold
 
 ## Model Details
@@ -127,19 +129,19 @@ To set up and run this project, follow these steps:
     ├── requirements.txt        # List of dependencies
     └── README.md               # This documentation
 
-    - face_detection.py: This is the main Python script that runs the face detection.
-    - requirements.txt: This file lists all the necessary Python packages to run the    project.
-    - README.md: The documentation you're currently reading.
+- face_detection.py: This is the main Python script that runs the face detection.
+- requirements.txt: This file lists all the necessary Python packages to run the    project.
+- README.md: The documentation you're currently reading.
 
 ## Contributing
 
 Contributions to this project are welcome! To contribute:
 
-    Fork the repository.
-    Create a new branch (git checkout -b feature-name).
-    Make your changes and commit them (git commit -am 'Add new feature').
-    Push the branch (git push origin feature-name).
-    Create a pull request.
+- Fork the repository.
+- Create a new branch (git checkout -b feature-name).
+- Make your changes and commit them (git commit -am 'Add new feature').
+- Push the branch (git push origin feature-name).
+- Create a pull request.
 
 ## License
 
