@@ -133,6 +133,27 @@ For more details on Faster R-CNN, refer to the official PyTorch documentation.
 - requirements.txt: This file lists all the necessary Python packages to run the    project.
 - README.md: The documentation you're currently reading.
 
+## Deployment Strategies
+1. Containerization with Docker
+
+Containerization allows you to encapsulate the entire application, including its dependencies, into a portable container that can be run consistently across different environments. Using Docker to containerize the application provides several benefits:
+
+- Consistency: The application will run the same way across all systems, regardless of the underlying infrastructure.
+- Portability: Docker containers can be deployed on any system that supports Docker, including local machines, virtual machines, and cloud platforms.
+- Isolation: Docker ensures that the application runs in its own environment, preventing conflicts with other applications running on the same host system.
+
+To containerize the application, we use Docker to create a Dockerfile, which defines the steps to set up the environment, install dependencies, and run the application. Once the container image is built, it can be deployed to any system, including cloud platforms, for scalable and isolated execution.
+
+2. Web API Deployment
+
+By wrapping the face detection logic into a REST API, you can deploy the application to be accessed over the web. This allows you to serve real-time video streams with face detection capabilities to remote clients.
+
+- Web Access: The application can be accessed from any device with a browser, making it easier to integrate into web or mobile applications.
+- Scalability: The API can be deployed on cloud platforms to scale based on the number of incoming requests.
+- User Interaction: Clients can interact with the API through simple HTTP requests, providing flexibility for integrating the model into various systems.
+
+To deploy as a web service, the Flask or FastAPI framework is used to create endpoints that stream the webcam feed with face detection. Once the API is set up, it can be deployed to a server or cloud platform (e.g., AWS, Google Cloud) for production usage.
+
 ## Contributing
 
 Contributions to this project are welcome! To contribute:
