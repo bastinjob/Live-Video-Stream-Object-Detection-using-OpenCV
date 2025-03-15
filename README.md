@@ -64,12 +64,14 @@ To set up and run this project, follow these steps:
    cd face-detection
 
 2. Create a virtual environment (optional but recommended):
+    
     '''
     python3 -m venv venv
     source venv/bin/activate   # On Windows, use venv\Scripts\activate
 
 3. Install the required dependencies:
 
+    '''
     pip install -r requirements.txt
 
     torch and torchvision: Required for running the Faster R-CNN model.
@@ -80,6 +82,7 @@ To set up and run this project, follow these steps:
 
     Ensure that PyTorch and OpenCV are installed correctly by running the following commands in Python:
 
+    '''
     import torch
     import cv2
     print(torch.__version__)
