@@ -114,12 +114,12 @@ To set up and run this project, follow these steps:
 ## Model Details
 ### Faster R-CNN Model
 
-    The Faster R-CNN model used in this project is based on ResNet-50 architecture and uses Feature Pyramid Networks (FPN) for improved object detection performance. It is a state-of-the-art model for detecting faces and other objects and is available through TorchVision.
+The Faster R-CNN model used in this project is based on ResNet-50 architecture and uses Feature Pyramid Networks (FPN) for improved object detection performance. It is a state-of-the-art model for detecting faces and other objects and is available through TorchVision.
 
-    - Pretrained on COCO dataset: The model has been pre-trained on the COCO (Common Objects in Context) dataset, which contains a wide variety of images with annotated objects.
-    - Output: The model outputs bounding boxes, labels, and confidence scores for each detected object.
+- Pretrained on COCO dataset: The model has been pre-trained on the COCO (Common Objects in Context) dataset, which contains a wide variety of images with annotated objects.
+- Output: The model outputs bounding boxes, labels, and confidence scores for each detected object.
 
-    For more details on Faster R-CNN, refer to the official PyTorch documentation.
+For more details on Faster R-CNN, refer to the official PyTorch documentation.
 
 ## File Structure
 
