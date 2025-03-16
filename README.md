@@ -1,4 +1,4 @@
-# Real-Time Face Detection with Confidence Using PyTorch
+# Live Video Stream Object Detection Using OpenCV and PyTorch
 
 This project demonstrates real-time face detection using a deep learning-based approach with **PyTorch** and the **Faster R-CNN** model. The application leverages a pre-trained model for accurate face detection, including bounding boxes and prediction confidence scores. The face detection is performed using a webcam feed, and the confidence score is displayed on the detected faces.
 
