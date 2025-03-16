@@ -1,4 +1,4 @@
-# Live Video Stream Object Detection Using OpenCV and PyTorch
+# Live Video Stream Object Detection and Segmentation Using OpenCV and PyTorch
 
 This project demonstrates real-time object detection using a deep learning-based approach with **PyTorch** and the **Faster R-CNN** model. The application leverages a pre-trained model for accurate object detection, including bounding boxes and prediction confidence scores. The detection is performed using a webcam feed, and detected objects are labeled with their class names and confidence scores.
 
